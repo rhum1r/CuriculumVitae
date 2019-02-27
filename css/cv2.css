@@ -61,15 +61,24 @@ body {
 	text-align: center;
 	margin-right: 3em;
 	margin-left: 3em;
+	border : 5px solid #da8007;
+	border-radius : 50%;
+	height : 175px;
+	width : 175px;
+	display: flex;
+	justify-content : center;
+	align-items : center;
+	position: relative;
+	z-index: 2;
+	background-color : #da8007; 
 }
 
 
 
 #profilPhoto {
-	position: relative;
-	border: 5px solid #da8007;
+	
 	border-radius: 50%;
-	z-index: 2;
+	
 	
 }
 
@@ -126,6 +135,37 @@ body {
 #blocB2 h1 {
 	border: 5px solid #da8007;
 	margin : 1rem;
+}
+
+#blocB2 li {
+	width : 17em;
+	display : flex;
+	justify-content : space-between;
+	align-items : center;
+}
+
+#blocB2 ul {
+	padding : 0px;
+}
+
+.skillWrapper {
+	width : 10em;
+	height : 0.3em;
+	position : relative;
+	
+	display: inline-block;
+	background-color : black;
+	margin-left : 2em;
+}
+
+.skill {
+	width : 0%;
+	height: 100%;
+	position : absolute;
+	left : 0%;
+	top : 0%;
+	background-color : #da8007;
+	transition : width 0.5s ease-out;
 }
 
 
